@@ -4,7 +4,7 @@ import dataTransform from "./modules/data-transform";
 import rollUp from "./modules/roll-up";
 
 const chartOptions = getChartOptions("opennem-widget-chart");
-const dataURL = "https://data.opennem.org.au/v3/stats/au/NEM/power/7d.json"
+const dataURL = "https://data.opennem.org.au/v3/stats/au/WEM/power/7d.json"
 
 fetch(dataURL)
   .then(function (response) {
